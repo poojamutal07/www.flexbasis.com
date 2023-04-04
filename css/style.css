@@ -1,0 +1,43 @@
+.div{
+    background-color: black;
+    height: 150px;
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .logo{
+    background-color:red;
+    height: 150px;
+    /* width: 140px; */
+    float: left;
+    flex-basis: 400px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    }
+    .body{
+    background-color: blueviolet;
+    height: 500px;
+    width: 1400px;
+    float: left;
+    flex-wrap: wrap;
+    display: flex;
+    
+    }
+    .aside{
+    background-color: pink;
+    color: black;
+    font-size: 50px;
+    float: left;
+    height: 500px;
+    flex-basis:250px;
+    
+    }
+    .footer{
+    background-color:palevioletred;
+    color: black;
+    text-align:center;
+    height: 100px;
+    width: 1400px;
+    float: left;
+    }
